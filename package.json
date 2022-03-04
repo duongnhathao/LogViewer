@@ -1,0 +1,19 @@
+{
+  "name": "codeigniter-log-viewer",
+  "version": "1.0.0",
+  "description": "for my Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongnhathao/codeigniter-log-viewer.git"
+  },
+  "author": "Duong Nhat Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duongnhathao/codeigniter-log-viewer/issues"
+  },
+  "homepage": "https://github.com/duongnhathao/codeigniter-log-viewer#readme"
+}
