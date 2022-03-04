@@ -1,32 +1,45 @@
 {
-  "name": "duongnhathao/codeigniter-log-viewer",
+  "name": "duongnhathao/log-viewer",
   "description": "This is a simple Log Viewer for viewing Code Igniter log files on the browser",
-  "keywords": ["Code Igniter", "Log Viewer", "PHP"],
+  "keywords": [
+    "duongnhathao",
+    "Duong Nhat Hao",
+    "Code Igniter",
+    "Log Viewer",
+    "logviewer",
+    "PHP"
+  ],
   "license": "MIT",
-  "github": "https://github.com/duongnhathao/codeigniter-log-viewer",
+  "github": "https://github.com/duongnhathao/LogViewer.git",
   "authors": [
     {
       "name": "Duong Nhat Hao",
-      "email": "duongnhathao001@gmail.com"
+      "email": "duongnhathao001@gmail.com",
+      "homepage": "https://github.com/duongnhathao",
+      "role": "Developer"
     }
   ],
   "minimum-stability": "dev",
-  "archive" : {
-    "exclude" : ["/sample.png"]
+  "archive": {
+    "exclude": [
+      "/sample.png"
+    ]
   },
   "require": {
     "php": ">=7.1"
   },
-"repositories":[
+  "repositories": [
     {
-        "type": "vcs",
-        "url": "git@github.com:duongnhathao/codeigniter-log-viewer.git"
+      "type": "vcs",
+      "url": "git@github.com:duongnhathao/LogViewer.git"
     }
-],
-
+  ],
   "autoload": {
     "psr-4": {
-      "CILogViewer\\": "src/"
-    }
+      "DuongNhatHao\\LogViewer\\": "src/"
+    },
+    "files": [
+      "helpers.php"
+    ]
   }
 }
