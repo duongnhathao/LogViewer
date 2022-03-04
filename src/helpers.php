@@ -2,9 +2,6 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-use app\services\messages\Message;
-use app\services\messages\PopupMessage;
-
 function app_admin_head()
 {
     hooks()->do_action('app_admin_head');
